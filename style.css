@@ -80,12 +80,12 @@ p span:before {
 
 @keyframes gerak {
     0% {
-        content: 'Terimakasih Sudah Membantu Kami';
+        content: 'Terimakasih Sudah Membantu';
     }
     50% {
         content: 'Ini Sebagai Ucapan Terimakasih';
     }
     100% {
-        content: 'Salam Hangat Dari Kami';
+        content: 'Diterima Ya';
     }
 }
