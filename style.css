@@ -76,6 +76,7 @@ p span:before {
     transform: translateY(-50%);
     color: rgb(245, 245, 196);
     font-size: 25px;
+    white-space: nowrap;
 }
 
 @keyframes gerak {
@@ -87,5 +88,11 @@ p span:before {
     }
     100% {
         content: 'Diterima Ya';
+    }
+}
+
+@media screen and (max-width : 680px) {
+    p span:before{
+        font-size: 18px;
     }
 }
